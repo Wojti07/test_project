@@ -1,0 +1,1 @@
+"use strickt";const textChange=()=>{return document.getElementById("text-inverted").value=document.getElementById("text-enter").value.split("").reverse().join("")};const textCheck=()=>{let e=document.getElementById("text-enter").value;if(e==""){alert("Please enter some text !!!");return false}};
